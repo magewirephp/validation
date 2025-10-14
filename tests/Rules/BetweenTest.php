@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation\Tests;
+namespace Magewirephp\Validation\Tests;
 
-use Rakit\Validation\Rules\Between;
+use Magewirephp\Validation\Rules\Between;
 use PHPUnit\Framework\TestCase;
 
 class BetweenTest extends TestCase

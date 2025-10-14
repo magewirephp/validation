@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation\Tests;
+namespace Magewirephp\Validation\Tests;
 
-use Rakit\Validation\Rules\NotIn;
+use Magewirephp\Validation\Rules\NotIn;
 use PHPUnit\Framework\TestCase;
 
 class NotInTest extends TestCase

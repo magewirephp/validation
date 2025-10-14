@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation\Tests;
+namespace Magewirephp\Validation\Tests;
 
-use Rakit\Validation\ErrorBag;
+use Magewirephp\Validation\ErrorBag;
 use PHPUnit\Framework\TestCase;
 
 class ErrorBagTest extends TestCase

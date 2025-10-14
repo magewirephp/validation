@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation;
+namespace Magewirephp\Validation;
 
-use Rakit\Validation\MissingRequiredParameterException;
+use Magewirephp\Validation\MissingRequiredParameterException;
 
 abstract class Rule
 {

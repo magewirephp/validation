@@ -1,11 +1,11 @@
 <?php
 
-namespace Rakit\Validation;
+namespace Magewirephp\Validation;
 
 use Closure;
-use Rakit\Validation\Rules\Interfaces\BeforeValidate;
-use Rakit\Validation\Rules\Interfaces\ModifyValue;
-use Rakit\Validation\Rules\Required;
+use Magewirephp\Validation\Rules\Interfaces\BeforeValidate;
+use Magewirephp\Validation\Rules\Interfaces\ModifyValue;
+use Magewirephp\Validation\Rules\Required;
 
 class Validation
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Rakit\Validation\Tests;
+namespace Magewirephp\Validation\Tests;
 
-use Rakit\Validation\Validation;
-use Rakit\Validation\Validator;
+use Magewirephp\Validation\Validation;
+use Magewirephp\Validation\Validator;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 

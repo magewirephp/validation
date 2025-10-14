@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Magewirephp\Validation\Rules;
 
-use Rakit\Validation\Rule;
+use Magewirephp\Validation\Rule;
 
 class AlphaNum extends Rule
 {

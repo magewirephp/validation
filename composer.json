@@ -1,21 +1,15 @@
 {
-  "name": "rakit/validation",
-  "description": "PHP Laravel like standalone validation library",
+  "name": "magewirephp/validation",
+  "description": "PHP Laravel like standalone validation library (forked from rakit/validation)",
   "license": "MIT",
-  "authors": [
-    {
-      "email": "emsifa@gmail.com",
-      "name": "Muhammad Syifa"
-    }
-  ],
   "autoload": {
     "psr-4": {
-      "Rakit\\Validation\\": "src"
+      "Magewirephp\\Validation\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Rakit\\Validation\\Tests\\": ["tests", "tests/Fixtures"]
+      "Magewirephp\\Validation\\Tests\\": ["tests", "tests/Fixtures"]
     }
   },
   "require": {

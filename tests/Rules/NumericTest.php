@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation\Tests;
+namespace Magewirephp\Validation\Tests;
 
-use Rakit\Validation\Rules\Numeric;
+use Magewirephp\Validation\Rules\Numeric;
 use PHPUnit\Framework\TestCase;
 
 class NumericTest extends TestCase

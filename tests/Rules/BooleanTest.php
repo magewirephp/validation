@@ -1,9 +1,9 @@
 <?php
 
-namespace Rakit\Validation\Tests;
+namespace Magewirephp\Validation\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Rakit\Validation\Rules\Boolean;
+use Magewirephp\Validation\Rules\Boolean;
 
 class BooleanTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rakit\Validation\Rules\Traits;
+namespace Magewirephp\Validation\Rules\Traits;
 
 use Exception;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Magewirephp\Validation\Rules;
 
-use Rakit\Validation\Helper;
-use Rakit\Validation\Rule;
+use Magewirephp\Validation\Helper;
+use Magewirephp\Validation\Rule;
 
 class NotIn extends Rule
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Rakit\Validation\Tests;
+namespace Magewirephp\Validation\Tests;
 
 use DateTime;
 use PHPUnit\Framework\TestCase;
-use Rakit\Validation\Rule;
-use Rakit\Validation\Rules\UploadedFile;
-use Rakit\Validation\Validator;
+use Magewirephp\Validation\Rule;
+use Magewirephp\Validation\Rules\UploadedFile;
+use Magewirephp\Validation\Validator;
 
 class ValidatorTest extends TestCase
 {

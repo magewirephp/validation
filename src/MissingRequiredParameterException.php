@@ -1,6 +1,6 @@
 <?php
 
-namespace Rakit\Validation;
+namespace Magewirephp\Validation;
 
 class MissingRequiredParameterException extends \Exception
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation\Tests;
+namespace Magewirephp\Validation\Tests;
 
-use Rakit\Validation\Rules\Alpha;
+use Magewirephp\Validation\Rules\Alpha;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

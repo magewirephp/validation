@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Rakit validation coding standard">
-    <description>Rakit validation coding standard</description>
+    <ruleset name="Magewirephp validation coding standard">
+    <description>Magewirephp validation coding standard</description>
 
     <!-- display progress -->
     <arg value="p"/>

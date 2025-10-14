@@ -1,11 +1,11 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Magewirephp\Validation\Rules;
 
-use Rakit\Validation\Helper;
-use Rakit\Validation\MimeTypeGuesser;
-use Rakit\Validation\Rule;
-use Rakit\Validation\Rules\Interfaces\BeforeValidate;
+use Magewirephp\Validation\Helper;
+use Magewirephp\Validation\MimeTypeGuesser;
+use Magewirephp\Validation\Rule;
+use Magewirephp\Validation\Rules\Interfaces\BeforeValidate;
 
 class UploadedFile extends Rule implements BeforeValidate
 {
