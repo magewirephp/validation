@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 class MimesTest extends TestCase
 {
-
-    public function setUp()
+    protected $rule;
+    protected function setUp(): void
     {
         $this->rule = new Mimes();
     }
@@ -24,7 +24,7 @@ class MimesTest extends TestCase
         ];
 
         $uploadedFileRule = $this->getMockBuilder(Mimes::class)
-            ->setMethods(['isUploadedFile'])
+            ->onlyMethods(['isUploadedFile'])
             ->getMock();
 
         $uploadedFileRule->expects($this->once())
@@ -77,7 +77,7 @@ class MimesTest extends TestCase
     {
 
         $rule = $this->getMockBuilder(Mimes::class)
-            ->setMethods(['isUploadedFile'])
+            ->onlyMethods(['isUploadedFile'])
             ->getMock();
 
         $rule->expects($this->exactly(3))

@@ -8,3 +8,4 @@ node_modules/
 .cursor
 CLAUDE.md
 .claude
+.phpunit.result.cache

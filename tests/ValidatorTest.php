@@ -13,7 +13,7 @@ class ValidatorTest extends TestCase
     /** @var Validator */
     protected $validator;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->validator = new Validator;
     }
@@ -397,7 +397,7 @@ class ValidatorTest extends TestCase
     public function getMockedUploadedFileRule()
     {
         $rule = $this->getMockBuilder(UploadedFile::class)
-            ->setMethods(['isUploadedFile'])
+            ->onlyMethods(['isUploadedFile'])
             ->getMock();
 
         $rule->method('isUploadedFile')->willReturn(true);
@@ -545,11 +545,10 @@ class ValidatorTest extends TestCase
         $this->assertTrue($v2->passes());
     }
 
-    /**
-     * @expectedException \Rakit\Validation\RuleNotFoundException
-     */
     public function testNonExistentValidationRule()
     {
+        $this->expectException(\Magewirephp\Validation\RuleNotFoundException::class);
+        
         $validation = $this->validator->make([
             'name' => "some name"
         ], [
@@ -618,11 +617,9 @@ class ValidatorTest extends TestCase
         $this->assertTrue($validation->passes());
     }
 
-    /**
-     * @expectedException \Rakit\Validation\RuleQuashException
-     */
     public function testInternalValidationRuleCannotBeOverridden()
     {
+        $this->expectException(\Magewirephp\Validation\RuleQuashException::class);
 
         $this->validator->addValidator('required', new Required());
 

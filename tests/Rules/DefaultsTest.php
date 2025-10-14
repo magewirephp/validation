@@ -7,7 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 class DefaultsTest extends TestCase
 {
-    public function setUp()
+    protected $rule;
+    protected function setUp(): void
     {
         $this->rule = new Defaults;
     }
