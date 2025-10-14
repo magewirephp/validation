@@ -4,6 +4,13 @@ namespace Magewirephp\Validation\Rules;
 
 use Magewirephp\Validation\Rule;
 
+// Note: 'numeric' (lowercase) is a soft reserved keyword and triggers PHPCompatibility warning
+// Kept unchanged for compatibility with forked rakit/validation package
+// see:
+// - https://www.php.net/manual/en/reserved.other-reserved-words.php
+// - https://github.com/illuminate/validation/blob/v12.34.0/Rules/Numeric.php
+
+// phpcs:disable PHPCompatibility.Keywords.ForbiddenNames
 class Numeric extends Rule
 {
 
