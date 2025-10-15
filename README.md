@@ -1,4 +1,4 @@
-Magewire PHP - Standalone Validation Library
+# Magewire PHP - Standalone Validation Library
 
 > **⚠️ Fork:** This package is a fork and drop-in replacement of [rakit/validation](https://github.com/rakit/validation) (it continues to use the original `Rakit\Validation` namespace). 
 Thanks to the original authors for their great work.
