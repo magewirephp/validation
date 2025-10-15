@@ -1,13 +1,12 @@
-Magewirephp Validation - PHP Standalone Validation Library
-======================================================
+Magewire PHP - Standalone Validation Library
+
+> **⚠️ Fork:** This package is a fork and drop-in replacement of [rakit/validation](https://github.com/rakit/validation) (it continues to use the original `Rakit\Validation` namespace). 
+Thanks to the original authors for their great work.
 
 [![CI](https://github.com/magewirephp/validation/actions/workflows/ci.yml/badge.svg)](https://github.com/magewirephp/validation/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/magewirephp/validation)](https://github.com/magewirephp/validation/blob/main/LICENSE.md)
 
 PHP Standalone library for validating data. Forked from `rakit/validation` which was inspired by `Illuminate\Validation` Laravel.
-
-This package is a fork and drop-in replacement of [rakit/validation](https://github.com/rakit/validation) (it continues to use the original `Rakit\Validation` namespace). 
-Thanks to the original authors for their great work.
 
 ## Features
 
@@ -25,13 +24,13 @@ Thanks to the original authors for their great work.
 
 ## Quick Start
 
-#### Installation
+### Installation
 
 ```
 composer require "magewirephp/validation"
 ```
 
-#### Usage
+### Usage
 
 There are two ways to validating data with this library. Using `make` to make validation object,
 then validate it using `validate`. Or just use `validate`.
