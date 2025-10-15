@@ -45,4 +45,4 @@ jobs:
         memory_limit: "256M"
     
     - name: Run PHPCS
-      run: composer run phpcs
+      run: vendor/bin/phpcs
