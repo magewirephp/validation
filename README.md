@@ -3,8 +3,8 @@ Magewirephp Validation - PHP Standalone Validation Library
 
 PHP Standalone library for validating data. Forked from `rakit/validation` which was inspired by `Illuminate\Validation` Laravel.
 
-This package is a fork of [rakit/validation](https://github.com/rakit/validation). Thanks to the original authors for their great work.
-
+This package is a fork and drop-in replacement of [rakit/validation](https://github.com/rakit/validation) (it continues to use the original `Rakit\Validation` namespace). 
+Thanks to the original authors for their great work.
 
 ## Features
 
