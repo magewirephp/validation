@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Integer;
+use Rakit\Validation\Rules\Integer;
 use PHPUnit\Framework\TestCase;
 
 class IntegerTest extends TestCase

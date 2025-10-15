@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Accepted;
+use Rakit\Validation\Rules\Accepted;
 use PHPUnit\Framework\TestCase;
 
 class AcceptedTest extends TestCase

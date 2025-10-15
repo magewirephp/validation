@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Defaults;
+use Rakit\Validation\Rules\Defaults;
 use PHPUnit\Framework\TestCase;
 
 class DefaultsTest extends TestCase

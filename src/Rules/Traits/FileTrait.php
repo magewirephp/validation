@@ -1,9 +1,9 @@
 <?php
 
-namespace Magewirephp\Validation\Rules\Traits;
+namespace Rakit\Validation\Rules\Traits;
 
 use InvalidArgumentException;
-use Magewirephp\Validation\Helper;
+use Rakit\Validation\Helper;
 
 trait FileTrait
 {

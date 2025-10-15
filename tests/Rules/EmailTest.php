@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Email;
+use Rakit\Validation\Rules\Email;
 use PHPUnit\Framework\TestCase;
 
 class EmailTest extends TestCase

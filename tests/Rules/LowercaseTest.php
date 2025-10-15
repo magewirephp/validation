@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Lowercase;
+use Rakit\Validation\Rules\Lowercase;
 use PHPUnit\Framework\TestCase;
 
 class LowercaseTest extends TestCase

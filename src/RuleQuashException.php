@@ -1,6 +1,6 @@
 <?php
 
-namespace Magewirephp\Validation;
+namespace Rakit\Validation;
 
 class RuleQuashException extends \Exception
 {

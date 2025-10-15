@@ -1,6 +1,6 @@
 <?php
 
-namespace Magewirephp\Validation\Rules\Interfaces;
+namespace Rakit\Validation\Rules\Interfaces;
 
 interface BeforeValidate
 {

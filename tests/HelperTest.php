@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Helper;
+use Rakit\Validation\Helper;
 use PHPUnit\Framework\TestCase;
 
 class HelperTest extends TestCase

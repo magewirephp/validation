@@ -1,12 +1,12 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
 use DateTime;
 use PHPUnit\Framework\TestCase;
-use Magewirephp\Validation\Rule;
-use Magewirephp\Validation\Rules\UploadedFile;
-use Magewirephp\Validation\Validator;
+use Rakit\Validation\Rule;
+use Rakit\Validation\Rules\UploadedFile;
+use Rakit\Validation\Validator;
 
 class ValidatorTest extends TestCase
 {
@@ -547,7 +547,7 @@ class ValidatorTest extends TestCase
 
     public function testNonExistentValidationRule()
     {
-        $this->expectException(\Magewirephp\Validation\RuleNotFoundException::class);
+        $this->expectException(\Rakit\Validation\RuleNotFoundException::class);
         
         $validation = $this->validator->make([
             'name' => "some name"
@@ -619,7 +619,7 @@ class ValidatorTest extends TestCase
 
     public function testInternalValidationRuleCannotBeOverridden()
     {
-        $this->expectException(\Magewirephp\Validation\RuleQuashException::class);
+        $this->expectException(\Rakit\Validation\RuleQuashException::class);
 
         $this->validator->addValidator('required', new Required());
 

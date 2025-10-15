@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Min;
+use Rakit\Validation\Rules\Min;
 use PHPUnit\Framework\TestCase;
 
 class MinTest extends TestCase

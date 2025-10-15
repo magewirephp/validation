@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Regex;
+use Rakit\Validation\Rules\Regex;
 use PHPUnit\Framework\TestCase;
 
 class RegexTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Magewirephp\Validation\Rule;
+use Rakit\Validation\Rule;
 
 // Note: 'numeric' (lowercase) is a soft reserved keyword and triggers PHPCompatibility warning
 // Kept unchanged for compatibility with forked rakit/validation package

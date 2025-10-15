@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\After;
+use Rakit\Validation\Rules\After;
 use PHPUnit\Framework\TestCase;
 use DateTime;
 

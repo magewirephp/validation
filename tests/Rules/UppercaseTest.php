@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Uppercase;
+use Rakit\Validation\Rules\Uppercase;
 use PHPUnit\Framework\TestCase;
 
 class UppercaseTest extends TestCase

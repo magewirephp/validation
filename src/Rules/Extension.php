@@ -1,9 +1,9 @@
 <?php
 
-namespace Magewirephp\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Magewirephp\Validation\Helper;
-use Magewirephp\Validation\Rule;
+use Rakit\Validation\Helper;
+use Rakit\Validation\Rule;
 
 class Extension extends Rule
 {

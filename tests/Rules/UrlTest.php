@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Url;
+use Rakit\Validation\Rules\Url;
 use PHPUnit\Framework\TestCase;
 
 class UrlTest extends TestCase

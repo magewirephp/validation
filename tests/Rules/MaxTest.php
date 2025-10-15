@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Max;
+use Rakit\Validation\Rules\Max;
 use PHPUnit\Framework\TestCase;
 
 class MaxTest extends TestCase

@@ -1,10 +1,10 @@
 <?php
 
-namespace Magewirephp\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Magewirephp\Validation\Helper;
-use Magewirephp\Validation\MimeTypeGuesser;
-use Magewirephp\Validation\Rule;
+use Rakit\Validation\Helper;
+use Rakit\Validation\MimeTypeGuesser;
+use Rakit\Validation\Rule;
 
 class Mimes extends Rule
 {

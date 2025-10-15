@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Ipv6;
+use Rakit\Validation\Rules\Ipv6;
 use PHPUnit\Framework\TestCase;
 
 class Ipv6Test extends TestCase

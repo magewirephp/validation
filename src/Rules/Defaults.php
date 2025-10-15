@@ -1,9 +1,9 @@
 <?php
 
-namespace Magewirephp\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Magewirephp\Validation\Rule;
-use Magewirephp\Validation\Rules\Interfaces\ModifyValue;
+use Rakit\Validation\Rule;
+use Rakit\Validation\Rules\Interfaces\ModifyValue;
 
 class Defaults extends Rule implements ModifyValue
 {

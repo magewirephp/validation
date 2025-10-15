@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Magewirephp\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Min extends Rule
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Magewirephp\Validation\Traits;
+namespace Rakit\Validation\Traits;
 
 trait TranslationsTrait
 {

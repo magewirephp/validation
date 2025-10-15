@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\AlphaDash;
+use Rakit\Validation\Rules\AlphaDash;
 use PHPUnit\Framework\TestCase;
 
 class AlphaDashTest extends TestCase

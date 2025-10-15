@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Digits;
+use Rakit\Validation\Rules\Digits;
 use PHPUnit\Framework\TestCase;
 
 class DigitsTest extends TestCase

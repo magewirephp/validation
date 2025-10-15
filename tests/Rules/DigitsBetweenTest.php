@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\DigitsBetween;
+use Rakit\Validation\Rules\DigitsBetween;
 use PHPUnit\Framework\TestCase;
 
 class DigitsBetweenTest extends TestCase

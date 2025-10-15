@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\TypeArray;
+use Rakit\Validation\Rules\TypeArray;
 use PHPUnit\Framework\TestCase;
 
 class TypeArrayTest extends TestCase

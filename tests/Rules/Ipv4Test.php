@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rules\Ipv4;
+use Rakit\Validation\Rules\Ipv4;
 use PHPUnit\Framework\TestCase;
 
 class Ipv4Test extends TestCase

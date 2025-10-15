@@ -1,8 +1,8 @@
 <?php
 
-namespace Magewirephp\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Magewirephp\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Required extends Rule
 {
