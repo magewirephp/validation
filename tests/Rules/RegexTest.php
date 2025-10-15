@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 class RegexTest extends TestCase
 {
-
-    public function setUp()
+    protected $rule;
+    protected function setUp(): void
     {
         $this->rule = new Regex;
     }

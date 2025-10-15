@@ -211,7 +211,7 @@ class Attribute
      * @param string|null $key
      * @return mixed
      */
-    public function getValue(string $key = null)
+    public function getValue(?string $key = null)
     {
         if ($key && $this->isArrayAttribute()) {
             $key = $this->resolveSiblingKey($key);

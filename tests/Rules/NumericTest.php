@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 class NumericTest extends TestCase
 {
-
-    public function setUp()
+    protected $rule;
+    protected function setUp(): void
     {
         $this->rule = new Numeric;
     }

@@ -1,2 +1,11 @@
 vendor/
 composer.lock
+.DS_Store
+node_modules/
+.idea
+.vscode
+.cursorrules
+.cursor
+CLAUDE.md
+.claude
+.phpunit.result.cache
